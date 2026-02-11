@@ -1,8 +1,3 @@
-
-
-
-
-
 CREATE TABLE Student (
     RollNo INT,
     Name VARCHAR2(50),
@@ -25,11 +20,11 @@ DROP TABLE Course;
 
 
 
-INSERT INTO Student VALUES (101, 'vijay', 'AIML', 20, '9876543210', 'Aurangabad', 4);
-INSERT INTO Student VALUES (102, 'nikhil', 'AIML', 21, '9876500000', 'bhagalpur', 5);
-INSERT INTO Student VALUES (103, 'rahul', 'CSE', 22, '9123456789', 'Mumbai', 6);
-INSERT INTO Student VALUES (104, 'rajnish', 'ME', 19, '9988776655', 'Pune', 3);
-INSERT INTO Student VALUES (105, 'Rohit', 'CSE', 23, '9090909090', 'Kolkata', 7);
+INSERT INTO Student VALUES (101, 'priya', 'AIML', 20, '9876543210', 'Aurangabad', 4);
+INSERT INTO Student VALUES (102, 'shreya', 'AIML', 21, '9876500000', 'bhagalpur', 5);
+INSERT INTO Student VALUES (103, 'mariya', 'CSE', 22, '9123456789', 'Mumbai', 6);
+INSERT INTO Student VALUES (104, 'riya', 'ME', 19, '9988776655', 'Pune', 3);
+INSERT INTO Student VALUES (105, 'erica', 'CSE', 23, '9090909090', 'Kolkata', 7);
 
 
 
@@ -39,11 +34,12 @@ SELECT * FROM Student WHERE Dept = 'CSE';
 SELECT * FROM Student WHERE Age > 20;
 
 UPDATE Student SET Dept = 'ECE' WHERE RollNo = 101;
-UPDATE Student SET City = 'Patna' WHERE Name = 'vijay';
+UPDATE Student SET City = 'Patna' WHERE Name = 'priya';
 UPDATE Student SET Age = Age + 1;
 
 DELETE FROM Student WHERE RollNo = 105;
 DELETE FROM Student;
+
 
 
 
