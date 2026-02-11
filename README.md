@@ -15,7 +15,8 @@ DB-Lab-1/
 2. Connect to Oracle:
    CONNECT username/password
 3. Run the SQL file:
-   @lab1_solution.sql
+   @Assignment01solution.sql
+
 
 
 
