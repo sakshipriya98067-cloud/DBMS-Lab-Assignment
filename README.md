@@ -7,7 +7,7 @@ It includes table creation, data insertion, updating, and deletion operations.
 ## File Structure
 DB-Lab-1/
  ->LabAssignment01.pdf
- ->vijaylabassignmentsoln01.sql
+ ->Assignment01solution.sql
  ->README.md
 
 ## How to Execute
@@ -16,5 +16,6 @@ DB-Lab-1/
    CONNECT username/password
 3. Run the SQL file:
    @lab1_solution.sql
+
 
 
